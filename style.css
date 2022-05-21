@@ -1,0 +1,21 @@
+
+body {
+    background-color: whitesmoke;
+    line-height: 2;
+    padding-bottom: 500px;
+}
+.container-satu {
+    width: 1000px;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.sidebar-satu {
+    padding-top: 5px;
+    padding-left: 30px;
+}
+.sidebar-dua {
+    padding-left: 30px;
+}
