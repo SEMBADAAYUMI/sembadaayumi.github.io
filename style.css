@@ -1,0 +1,20 @@
+body{
+    background-color: #395B64;
+}
+.main-container{
+    width: 50%;
+    height: 75vh;
+    margin: 5rem auto;
+    border-radius: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-container h1{
+    color: #D36B00;
+    margin: 4% 0%;
+}
+.alarm-list::-webkit-scrollbar{
+    display: none;
+} 
+
