@@ -1,11 +1,18 @@
-body{
+body {
+    background-color: whitesmoke;
+  }
+  #clock {
+    color: blueviolet;
+    font-size: xx-large;
+    text-align: center;
+  }
+/* body{
     background-color: #395B64;
 }
-.main-container{
+.container{
     width: 50%;
     height: 75vh;
     margin: 5rem auto;
-    border-radius: 4rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,8 +20,4 @@ body{
 .main-container h1{
     color: #D36B00;
     margin: 4% 0%;
-}
-.alarm-list::-webkit-scrollbar{
-    display: none;
-} 
-
+} */
