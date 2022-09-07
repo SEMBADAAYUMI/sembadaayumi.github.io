@@ -5,20 +5,19 @@ body {
     color: blueviolet;
     font-size: xx-large;
     text-align: center;
+    padding: 15px 0;
   }
-/* body{
-    background-color: #395B64;
-}
-.container{
-    width: 50%;
-    height: 75vh;
-    margin: 5rem auto;
+  nav {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.main-container h1{
-    color: #D36B00;
-    margin: 4% 0%;
-} */
+    background-color: #B7C4CF;
+    justify-content: space-between;
+    padding: 5px 0;
+  }
+  nav .logo {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', 'Arial Narrow Bold', sans-serif;
+    margin-left: 25px;
+  }
+  nav h4{
+    color: #CDF0EA;
+  }
 
