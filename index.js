@@ -47,7 +47,7 @@ function clearAlarm() {
   audio.pause();
   if (alarmTimeout) {
     clearTimeout(alarmTimeout);
-    alert("AYO Waktu TAT");
+    alert("Approve Mikro!!");
   }
   else(alarmTime);
   }
@@ -67,6 +67,6 @@ form.addEventListener("submit", (e) => {
     li.addEventListener("click", () => {
       li.remove();
   if (alarmTimeout) {
-    alert("AYO Waktu TAT");
+    alert("Approve Mikro!!");
   }})
 })
