@@ -1,5 +1,5 @@
 const display = document.getElementById("clock");
-const audio = new Audio("./files/ggamercom.mp3");
+const audio = new Audio("./files/alarmBaru.mp3");
 audio.loop = true;
 let alarmTime = null;
 let alarmTimeout = null;
