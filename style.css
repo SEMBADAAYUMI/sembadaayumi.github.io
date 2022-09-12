@@ -1,10 +1,10 @@
 body {
     background-color: whitesmoke;
+    text-align: center;
   }
   #clock {
     color: blueviolet;
     font-size: xx-large;
-    text-align: center;
     padding: 30px 0;
   }
   nav {
@@ -21,12 +21,7 @@ body {
     color: #CDF0EA;
   }
   .notice-1{
-    position: absolute;
-    left: 50%;
-    top: 25%;
-    transform: translate(-50%, -50%);
+    position: inherit;
     color: #E80F88;
-    text-align: center;
-    border-radius: 20px;
   }
 

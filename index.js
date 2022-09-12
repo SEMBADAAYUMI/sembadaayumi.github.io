@@ -1,4 +1,4 @@
-const display = document.getElementById("clock");
+const display = document.querySelector("#clock");
 const audio = new Audio("./files/alarmBaru.mp3");
 audio.loop = true;
 let alarmTime = null;
@@ -50,8 +50,9 @@ function clearAlarm() {
     alert("Mohon Approve BTA!!");
   }
   else(alarmTime);
-  }
-  const form = document.querySelector("#new-alarm-form");
+}
+
+const form = document.querySelector("#new-alarm-form");
 const list = document.querySelector("#list");
 const input = document.querySelector("#item-input");
 
