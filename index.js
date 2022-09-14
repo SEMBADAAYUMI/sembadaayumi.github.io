@@ -1,5 +1,5 @@
 const display = document.querySelector("#clock");
-const audio = new Audio("./files/alarmBaru.mp3");
+const audio = new Audio("./files/febriVoice.mp3");
 audio.loop = true;
 let alarmTime = null;
 let alarmTimeout = null;
